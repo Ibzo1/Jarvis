@@ -1,0 +1,12 @@
+Project Titan - Meeting Notes - August 15, 2025
+
+Attendees: David, Sarah, Mike
+
+Key Discussion Points:
+1.  The primary blocker for the Q3 launch is the database scaling issue. Current benchmarks show performance degradation at 10,000 concurrent users, which is below the target of 50,000.
+2.  Sarah's team has proposed a new caching layer using Redis, which could alleviate the immediate pressure on the database.
+3.  Mike will draft a revised project timeline to account for the implementation of the caching layer. A preliminary estimate suggests a 2-week delay.
+
+Action Items:
+-   Mike: Deliver revised timeline by EOD Friday.
+-   David: Approve budget for new Redis infrastructure.
